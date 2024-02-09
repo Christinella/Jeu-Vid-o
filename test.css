@@ -1,7 +1,8 @@
-body {
+#road {
     background: url(yol.png) no-repeat center;
-    background-size: cover;
-    height: 100vh;
+    background-size:contain;
+    height: 800px;
+    width: 800px;
     display: grid;
     place-items: center;
 
@@ -35,10 +36,10 @@ body {
     display: grid;
     place-items: center;
     position: absolute;
-    right: 588px;
+    left: 421px;
     top: 0px;
     z-index: 1001;
-    animation: obstacle infinite linear 1.5s;
+    animation: enemy1 infinite linear 1.5s;  
 }
 
 
@@ -49,30 +50,30 @@ body {
     place-items: center;
     position: absolute;
     width: 100px;
-    right: 380px;
+    left: 490px;
     top: 0px;
     z-index: 1001;
-    animation: obstacle infinite linear 2s;
+    animation: enemy2 infinite linear 2s;  
 }
 
 #obstacle3 {
     display: grid;
     place-items: center;
     position: absolute;
-    left: 443px;
+    left: 260px;
     top: 0px;
     z-index: 1001;
-    animation: obstacle infinite linear 2.5s;
+    animation: enemy3 infinite linear 2.5s;  
 }
 
 #obstacle4 {
     display: grid;
     place-items: center;
     position: absolute;
-    right: 780px;
+    left: 338px;
     top: 0px;
     z-index: 1001;
-    animation: obstacle infinite linear 3s;
+    animation: enemy4 infinite linear 3s;  
 }
 
 #obstacle5 {
@@ -80,89 +81,20 @@ body {
     place-items: center;
     position: absolute;
     width: 100px;
-    right: 173px;
+    left: 173px;
     top: 0px;
     z-index: 1001;
-    animation: obstacle infinite linear 3.5s;
+    animation: enemy5 infinite linear 3.5s;  
 }
 
 #obstacle6 {
     display: grid;
     place-items: center;
     position: absolute;
-    left: 244px;
+    left: 570px;
     top: 0px;
     z-index: 1001;
-    animation: obstacle infinite linear 4s;
-}
-
-/* 
- .Route {
-    background-image: url(yol.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 600px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8%;
-
-    
-
-} */
-
-/* .obstacle {
-
-    width: 50px;
-    height: 100px;
-    background-color: blue;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: obstacle 4s linear infinite;
-    visibility: hidden;
-
-}
-
-.obstacle1 {
-
-    width: 50px;
-    height: 100px;
-    background-color: rgb(0, 255, 26);
-    position: absolute;
-    top: 0;
-    right: 50px;
-    animation: obstacle 2s linear infinite;
-    visibility: hidden;
-
-
-}
-
-.obstacle2 {
-
-    width: 50px;
-    height: 100px;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    right: 0;
-    animation: obstacle 3s linear infinite;
-    visibility: hidden;
-
-}*/
-
-
-@keyframes obstacle {
-    0% {
-        top: 0;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
+    animation: enemy6 infinite linear 4s;  
 }
 
 #element {
