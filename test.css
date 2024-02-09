@@ -1,0 +1,173 @@
+body {
+    background: url(yol.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+#start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2em;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+#obstacle1 {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    right: 588px;
+    top: 0px;
+    z-index: 1001;
+    animation: obstacle infinite linear 1.5s;
+}
+
+
+
+
+#obstacle2 {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    width: 100px;
+    right: 380px;
+    top: 0px;
+    z-index: 1001;
+    animation: obstacle infinite linear 2s;
+}
+
+#obstacle3 {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 443px;
+    top: 0px;
+    z-index: 1001;
+    animation: obstacle infinite linear 2.5s;
+}
+
+#obstacle4 {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    right: 780px;
+    top: 0px;
+    z-index: 1001;
+    animation: obstacle infinite linear 3s;
+}
+
+#obstacle5 {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    width: 100px;
+    right: 173px;
+    top: 0px;
+    z-index: 1001;
+    animation: obstacle infinite linear 3.5s;
+}
+
+#obstacle6 {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 244px;
+    top: 0px;
+    z-index: 1001;
+    animation: obstacle infinite linear 4s;
+}
+
+/* 
+ .Route {
+    background-image: url(yol.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+
+    
+
+} */
+
+/* .obstacle {
+
+    width: 50px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: obstacle 4s linear infinite;
+    visibility: hidden;
+
+}
+
+.obstacle1 {
+
+    width: 50px;
+    height: 100px;
+    background-color: rgb(0, 255, 26);
+    position: absolute;
+    top: 0;
+    right: 50px;
+    animation: obstacle 2s linear infinite;
+    visibility: hidden;
+
+
+}
+
+.obstacle2 {
+
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: obstacle 3s linear infinite;
+    visibility: hidden;
+
+}*/
+
+
+@keyframes obstacle {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 700px;
+    }
+
+
+}
+
+#element {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 90px;
+}
