@@ -50,6 +50,3 @@ const scoreInterval = setInterval(() => {
 
 setInterval(collision, 50);
 
-
-
-
