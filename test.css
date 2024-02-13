@@ -1,170 +1,70 @@
-body {
-    background: url(yol.png) no-repeat center;
-    background-size: cover;
-    height: 100vh;
-    display: grid;
-    place-items: center;
+
+
+.Route {
+    background-image: url(route.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    left:33%;
+    position: relative;
+    position: static;
+    overflow: hidden;
 
 }
 
-#start {
+#element {
+    position: absolute;
+    bottom: 15px;
+}
+#Demarrer {
     position: absolute;
     top: 50%;
-    left: 50%;
-    z-index: 100;
-    font-size: 2em;
+    left:13%;
+    z-index: 1;
+    width: 96px ;
+    width: 122px;
+    height: 70px;
+    border-radius: 9px;
     background-color: black;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
+    color: blanchedalmond;
 
 }
-
-#score {
+#Rules {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 2em;
-    padding: 5px;
-    background-color: aliceblue;
-    border-radius: 20px;
+    top: 40%;
+    left:13%;
+    z-index: 1;
+    width: 96px ;
+    width: 122px;
+    height: 70px;
+    border-radius: 9px;
+    background-color: black;
+    color: blanchedalmond;
+
 }
+#score{
+    position: absolute;
+    left: 35%;
+}
+
 
 #obstacle1 {
-    display: grid;
-    place-items: center;
+
     position: absolute;
-    right: 588px;
+    left: 375px;
     top: 0px;
     z-index: 1001;
-    animation: enemy1 infinite linear 1.5s;  
+
 }
-
-
-
-
 #obstacle2 {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    width: 100px;
-    right: 380px;
+   position: absolute;
+   left: 214px;
     top: 0px;
     z-index: 1001;
-    animation: enemy2 infinite linear 2s;  
 }
-
 #obstacle3 {
-    display: grid;
-    place-items: center;
     position: absolute;
-    left: 443px;
-    top: 0px;
-    z-index: 1001;
-    animation: enemy3 infinite linear 2.5s;  
-}
-
-#obstacle4 {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    right: 780px;
-    top: 0px;
-    z-index: 1001;
-    animation: enemy4 infinite linear 3s;  
-}
-
-#obstacle5 {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    width: 100px;
-    right: 173px;
-    top: 0px;
-    z-index: 1001;
-    animation: enemy5 infinite linear 3.5s;  
-}
-
-#obstacle6 {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    left: 244px;
-    top: 0px;
-    z-index: 1001;
-    animation: enemy6 infinite linear 4s;  
-}
-
-@keyframes enemy1 {
-    0% {
-        top: 0;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
-}
-@keyframes enemy2 {
-    0% {
-        top: 20;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
-}
-@keyframes enemy3 {
-    0% {
-        top: 40;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
-}
-@keyframes enemy4 {
-    0% {
-        top: 60;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
-}
-@keyframes enemy5 {
-    0% {
-        top: 80;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
-}
-@keyframes enemy6 {
-    0% {
-        top: 100;
-    }
-
-    100% {
-        top: 700px;
-    }
-
-
-}
-#element {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    bottom: 90px;
-}
+    left: 63px;
+     top: 0px;
+     z-index: 1001;
+ }
+ 
