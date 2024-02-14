@@ -1,70 +1,53 @@
-
-
-.Route {
-    background-image: url(route.jpg);
-    background-repeat: no-repeat;
-    height: 700px;
-    left:33%;
+#gameArea {
+    width: 400px;
+    height: 800px;
+    border: 1px solid black;
     position: relative;
-    position: static;
-    overflow: hidden;
-
+    background-image: url(terrain.jpg);
 }
 
-#element {
+#car {
+    width: 50px;
+    height: 80px;
     position: absolute;
-    bottom: 15px;
+    background-image: url(persomoto-removebg-preview.png);
+    background-size: cover;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
-#Demarrer {
+
+.obstacle {
+    width: 100px;
+    height: 200px;
+    background-image:url(obstacle-removebg-preview.png);
+    background-size: cover;
+    position: absolute;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    color: azure;
+
+}
+
+#rules {
     position: absolute;
     top: 50%;
-    left:13%;
-    z-index: 1;
-    width: 96px ;
-    width: 122px;
-    height: 70px;
-    border-radius: 9px;
-    background-color: black;
-    color: blanchedalmond;
-
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(245, 7, 7, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
 }
-#Rules {
-    position: absolute;
-    top: 40%;
-    left:13%;
-    z-index: 1;
-    width: 96px ;
-    width: 122px;
-    height: 70px;
-    border-radius: 9px;
-    background-color: black;
-    color: blanchedalmond;
-
-}
-#score{
-    position: absolute;
-    left: 35%;
-}
-
-
-#obstacle1 {
-
-    position: absolute;
-    left: 375px;
-    top: 0px;
-    z-index: 1001;
-
-}
-#obstacle2 {
-   position: absolute;
-   left: 214px;
-    top: 0px;
-    z-index: 1001;
-}
-#obstacle3 {
-    position: absolute;
-    left: 63px;
-     top: 0px;
-     z-index: 1001;
- }
- 
