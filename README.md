@@ -8,7 +8,7 @@ En tant que en tant que développeur web JS travaillant pour un petit studio de 
 - Avoir des données dans le JS qui seront modifiées en cours de jeu (barre de vie, score, progression, etc.), l'idée est de travailler la séparation des données et de l'affichage.
 
 ## Moto Gang 
-
+![](/NameJeu.png)
 
 
 ### Objectif du jeu 
